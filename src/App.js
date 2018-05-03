@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { Route, Switch } from "react-router-dom";
+import IndexLayout from './component/IndexLayout.jsx';
 
 const App = () => (
   <div className="">
   <Switch>
     <Route exact path="/" component={IndexLayout} />
-    <Route component={NoMatch}/>
     </Switch>
   </div>
 );

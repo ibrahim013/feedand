@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IndexLayout = () =>(
+const IndexLayout = () => (
     <div>
         <h1>welcome</h1>
     </div>
