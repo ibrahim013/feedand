@@ -2,10 +2,11 @@ import React from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import LoginForm from "../presentational/LoginForm";
+import SignUpForm from "../presentational/SignUpForm";
 import * as actions from '../actions';
 
-class Login extends React.Component {
+
+class SignUp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,12 +26,12 @@ class Login extends React.Component {
     event.preventDefault();
     const { email, password } = this.state;
 
-    this.props.loginUser({ email, password });
+    this.props.signupUser({ email, password });
   };
 
   render() {
     return (
-      <LoginForm
+      <SignUpForm
         onSubmit={this.handleSubmit}
         onChange={this.handleChange}
         email={this.state.email}
@@ -43,4 +44,4 @@ class Login extends React.Component {
 
   
 
-export default connect(null, actions)(Login);
+export default connect(null, actions)(SignUp);
