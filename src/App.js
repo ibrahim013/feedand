@@ -5,6 +5,9 @@ import Admin from './component/Admin.jsx';
 import Caterers from './component/Caterers.jsx';
 import Profile from './component/Profile.jsx';
 
+import LoginForm from './presentational/LoginForm';
+import SignUp from './component/SignUp';
+
 const App = () => (
   <div className="">
   <Switch>
