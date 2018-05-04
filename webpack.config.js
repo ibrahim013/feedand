@@ -16,6 +16,9 @@ const webpackConfig = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
+            query: {
+              presets: ['react','env', "es2015"]
+          }
         },
       },
       {
@@ -56,6 +59,9 @@ const webpackConfig = {
         ],
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   plugins: [
     new HtmlWebPackPlugin({
