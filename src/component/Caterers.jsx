@@ -4,7 +4,7 @@ export class Caterers extends React.Component{
     render(){
         return(
             <div>
-                <h1>this is an Caterers page</h1>
+                <h1>this is a Caterer page</h1>
             </div>
         )
     }
