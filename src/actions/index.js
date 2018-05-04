@@ -11,19 +11,19 @@ import { LOGOUT } from './types';
 // };
 
 export const loginUser = (payload) => async dispatch => {
-  const response  = await axios.get('/api/current_user')
+  // const response  = await axios.get('/api/current_user')
   
-  dispatch({ type: LOGIN_USER, payload: response })
+  // dispatch({ type: LOGIN_USER, payload: response })
 };
 
 export const signupUser = (payload) => async dispatch => {
-  const response = await axios.get('');
+  // const response = await axios.get('');
 
-  dispatch({ type: SIGNUP_USER, payload: response })
+  // dispatch({ type: SIGNUP_USER, payload: response })
 };
 
 export const logout = () => {
-  const response  = await axios.get('')
+  // const response  = await axios.get('')
   
-  dispatch({ type: LOGOUT, payload: response })
+  // dispatch({ type: LOGOUT, payload: response })
 }
