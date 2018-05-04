@@ -114,7 +114,6 @@ html, head, body, .content-container {
     flex-direction: column;
   }
   
-<<<<<<< HEAD
   .page-logo {
     height: 150px;
     flex: 0 0 auto;
@@ -215,7 +214,6 @@ html, head, body, .content-container {
     transition: .5s ease;
     background-color: #008CBA;
   }
-=======
   .catering-vendor-name {
     flex: 0 0 auto;
     height: 100px;
@@ -321,4 +319,142 @@ html, head, body, .content-container {
       padding-left: 0;
     }
   }
->>>>>>> Fix Checkbox
+  }
+
+
+  html, head, body, .content-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#424242;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: #F6F7F9;
+  }
+  
+  .content-header {
+    flex: 0 0 auto;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .content-body {
+    flex: 1 1 auto;
+    background: #F6F7F9;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .catering-vendor-name {
+    flex: 0 0 auto;
+    height: 100px;
+    padding: 45px 50px;
+  }
+  
+  .content-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .catering-vendor-menu {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-cards {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #d0d4d9;
+    border-radius: 5px;
+  }
+  
+  .process  {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .status-header {
+    flex: 1 1 auto;
+    display: flex;
+  }
+  .menu-cards-header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .menu-cards-header .button {
+    display: block;
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #EDEEEF;
+    align-items: center;
+    padding: 5px;
+    border-radius: 16px;
+    height: 35px;
+  }
+  
+  .days {
+    display: block;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #EDEEEF;
+    align-items: center;
+    padding: 5px;
+    border-radius: 16px;
+    height: 35px;
+  }
+  
+  .menu-cards-description {
+    height: 100px;
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 10px;
+  }
+  
+  .menu-card-items {
+    flex: 1 1 auto;
+  }
+  .card-items {
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 350px;
+    flex: 0 0 auto;
+    padding: 10px;
+    background-color: #EDEEEF;
+  }
+  
+  .scrolling-wrapper {
+    height: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  header, main {
+    padding-left: 300px;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }

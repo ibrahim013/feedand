@@ -12,10 +12,10 @@ import SignUp from './component/SignUp';
 const App = () => (
   <div className="">
   <Switch>
-    <Route exact path="/" component={AndelaBoard} />
+    <Route exact path="/" component={IndexLayout} />
     <Route path="/admin" component={Admin} />
     <Route exact path="/caterers" component={Caterers} />
-    {/* <Route exact path="/profile" component={Profile} /> */}
+    <Route exact path="/andela" component={AndelaBoard} />
     </Switch>
   </div>
 );
