@@ -56,3 +56,134 @@
         width:150%;
     }
 }
+
+
+.login-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .login-container .input-field input {
+    margin: 5px;
+  }
+  .food-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .food-footer {
+    height: 200px;
+    background-color: #F6F3F3;
+  } */
+  .food-highlight {
+    height: 100%;
+    background-color: #F0ECEC;
+  }
+  
+  .login-page {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page-logo {
+    height: 150px;
+    flex: 0 0 auto;
+    padding: 20px 50px;
+    text-align: center;
+  }
+  
+  .login-form {
+    width: 450px;
+    padding-top: 100px;
+  }
+  
+  .login-action {
+    flex: 1 1 auto;
+    background-color: #F6F7F9;
+  }
+  .cta-button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .button {
+    width: 120px;
+    height: 40px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .login-botton {
+    background-color: #0d47a1;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .page-logo img {
+    margin-top:55px;
+  }
+  
+  .signin-botton {
+    border-radius: 5px;
+    border: solid 2px #0d47a1;
+    color: #0d47a1;
+    background-color: transparent;
+  }
+  .button.shadow-effect {
+    margin-left: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .button.shadow-effect:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid #82b1ff !important;;
+    box-shadow: 0 1px 0 0 #82b1ff !important;;
+  }
+  
+  .input-field input[type=password]:focus {
+  border-bottom: 1px solid #82b1ff !important;;
+  box-shadow: 0 1px 0 0 #82b1ff !important;;
+  }
+  
+  .cta {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-wrapper img {
+    height: auto;
+    width: 100%
+  }
+  .menu-wrapper:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
