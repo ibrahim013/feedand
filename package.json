@@ -9,6 +9,7 @@
     "scripts": {
         "start": "webpack-dev-server --mode development --open --history-api-fallback",
         "build": "webpack --mode production",
+        "heroku-postbuild": "npm run build",
         "test": "jest --config=jest.config.json"
     },
     "repository": {
