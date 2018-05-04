@@ -4,7 +4,7 @@ export class Profile extends React.Component{
     render(){
         return(
             <div>
-                <h1>this is an Profile page</h1>
+                <h1>Under Construction</h1>
             </div>
         )
     }

@@ -11,7 +11,7 @@ const App = () => (
     <Route exact path="/" component={IndexLayout} />
     <Route path="/admin" component={Admin} />
     <Route exact path="/caterers" component={Caterers} />
-    <Route exact path="/profile" component={Profile} />
+    {/* <Route exact path="/profile" component={Profile} /> */}
     </Switch>
   </div>
 );
